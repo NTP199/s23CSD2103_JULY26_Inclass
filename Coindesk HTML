@@ -3,11 +3,28 @@
 <head>
     <title>Bitcoin to USD converter</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            text-align: center;
+            background-color:goldenrod;
+            text-decoration: wavy;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+        #result {
+            margin-top: 20px;
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>Bitcoin to USD converter</h1>
     <p>Enter the number of Bitcoins:</p>
-    <input type="number" id="btc" min="0">
+    <input type="number" id="btc" min="0" placeholder="Amount">
     <button id="convert">Convert</button>
     <p id="result"></p>
 
