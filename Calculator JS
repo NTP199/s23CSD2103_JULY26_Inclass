@@ -1,4 +1,10 @@
 function calculate(num1, num2, operator){
+    num1 = parseFloat(num1);
+    mum2 = parseFloat(num2);
+
+   // if (isNaN(num1) || isNaN(num2)){
+   //     return 'Error: Please enter numbers only.'
+   // }
     switch(operator){
         case'+':
             return num1 + num2;
@@ -19,9 +25,14 @@ function calculate(num1, num2, operator){
     }
 }
 
+
 $(document).ready(function() {
-$("#myButton").click(function() {
-    alert("Button clicked!");
+    $("#myButton").click(function() {
+        var num1 = $('#num1').val();
+        var num1 = $('#num2').val();
+        var operator = $('#operator').val();
+
+        var result = calculate(num1, num2, operator);
+        $('#result').text("Result: " + result);
     });
 });
-
