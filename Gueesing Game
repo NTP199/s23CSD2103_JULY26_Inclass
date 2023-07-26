@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calc page</title>
+    <title>guessing game</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         body{
@@ -26,6 +26,7 @@
         <button id="checkGuess">Guess</button>
         <div id="result"></div>
     </div>
+
 
 <script>
     $(document).ready(function() {
