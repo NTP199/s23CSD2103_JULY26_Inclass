@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <h1>hello this is a calculator</h1>
+
+<button id="myButton">Click me!</button>
+
+
+</body>
+
+</html>
