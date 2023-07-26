@@ -19,8 +19,3 @@ function calculate(num1, num2, operator){
     }
 }
 
-$(document).ready(function(){
-    $("#myButton").click(function() {
-        alert("Button clicked!");
-    });
-});
